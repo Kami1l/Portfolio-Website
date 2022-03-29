@@ -1,4 +1,4 @@
 👋 Hi, I’m Kamil
 👀 I’m interested in JS,HTML,CSS,
-🌱 I’m currently learning React :)
 
+For now php file doesn't work :).
