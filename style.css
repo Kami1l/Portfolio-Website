@@ -915,8 +915,8 @@ footer .container .box:nth-child(2) {
             transform: translate3d(0, 200px, 0);
   }
   100% {
-    -webkit-transform: translate3d(0, 350vh, 0);
-            transform: translate3d(0, 350vh, 0);
+    -webkit-transform: translate3d(0, 400vh, 0);
+            transform: translate3d(0, 400vh, 0);
   }
 }
 
@@ -926,8 +926,8 @@ footer .container .box:nth-child(2) {
             transform: translate3d(0, 200px, 0);
   }
   100% {
-    -webkit-transform: translate3d(0, 350vh, 0);
-            transform: translate3d(0, 350vh, 0);
+    -webkit-transform: translate3d(0, 400vh, 0);
+            transform: translate3d(0, 400vh, 0);
   }
 }
 
