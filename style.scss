@@ -224,6 +224,7 @@ header{
             outline:none;
             border-radius:5px;
             box-shadow: 0 0px 10px 1px $darkestMainColor;
+            
         }
         .exp{
             -webkit-appearnance:none;
@@ -236,7 +237,6 @@ header{
             -webkit-appearnance:none;
             width:48px;
             height: 48px;
-            cursor: pointer;
             z-index: 3;
             position: relative;
         }
@@ -282,6 +282,7 @@ header{
                 line-height: 35px;
                 font-size: 16px;
                 font-weight: bold;
+
                 &::after{
                     content:'';
                     position: absolute;

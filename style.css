@@ -305,7 +305,6 @@ header .coat::after {
   -webkit-appearnance: none;
   width: 48px;
   height: 48px;
-  cursor: pointer;
   z-index: 3;
   position: relative;
 }
