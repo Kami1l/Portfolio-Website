@@ -130,7 +130,7 @@ header .coat .container .box:nth-child(2) h1 {
 
 header .coat .container .box h1 {
   position: relative;
-  font-size: 30px;
+  font-size: 26px;
   color: #E42256;
   z-index: 9;
 }
@@ -229,11 +229,11 @@ header .coat::after {
 }
 
 .section .strip p {
+  margin: auto 20px;
+  line-height: 1.3;
   font-size: 12px;
   font-weight: bold;
-  margin: 8px;
   color: #E42256;
-  letter-spacing: 1px;
 }
 
 .section .strip .grab {
@@ -552,7 +552,7 @@ footer .container .box:nth-child(2) {
     margin-top: 6vh;
   }
   .section .strip p {
-    margin: 8px 8px 8px 50px;
+    margin: auto 50px;
   }
   .section .strip .grab {
     height: 180px;
@@ -631,6 +631,9 @@ footer .container .box:nth-child(2) {
   header .coat::after {
     content: "";
     width: 300px;
+  }
+  .section .strip {
+    letter-spacing: 1px;
   }
   .section article {
     -webkit-box-pack: center;
@@ -892,6 +895,87 @@ footer .container .box:nth-child(2) {
   .section article form {
     width: 40%;
     height: 60vh;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  header .cloud_1 {
+    top: 65%;
+    width: 280px;
+    height: 320px;
+  }
+  header .cloud_2 {
+    top: 50%;
+    width: 350px;
+    height: 450px;
+  }
+  header .cloud_3 {
+    top: -15%;
+    height: 1300px;
+  }
+  header .coat {
+    width: 500px;
+  }
+  header .coat .umbrella {
+    width: 500px;
+  }
+  header .coat::after {
+    content: "";
+    width: 500px;
+    top: 47vh;
+  }
+  .section h2 {
+    font-size: 50px;
+  }
+  .section .container:nth-child(2) .selector {
+    -webkit-transform: translateX(-70%);
+            transform: translateX(-70%);
+  }
+  .section .container:nth-child(3) .selector {
+    -webkit-transform: translateX(-80%);
+            transform: translateX(-80%);
+  }
+  .section .strip {
+    width: 60%;
+    height: 250px;
+  }
+  .section .strip p {
+    font-size: 22px;
+  }
+  .section article form {
+    width: 50%;
+    height: 65vh;
+  }
+  .section article form h3 {
+    font-size: 38px;
+  }
+  .section article form input[type="text"]::-webkit-input-placeholder {
+    font-size: 18px;
+  }
+  .section article form input[type="text"]:-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .section article form input[type="text"]::-ms-input-placeholder {
+    font-size: 18px;
+  }
+  .section article form input[type="text"]::placeholder {
+    font-size: 18px;
+  }
+  .section article form input[type="submit"] {
+    font-size: 28px;
+    height: 100px;
+  }
+  .section article form textarea::-webkit-input-placeholder {
+    font-size: 24px;
+  }
+  .section article form textarea:-ms-input-placeholder {
+    font-size: 24px;
+  }
+  .section article form textarea::-ms-input-placeholder {
+    font-size: 24px;
+  }
+  .section article form textarea::placeholder {
+    font-size: 24px;
   }
 }
 

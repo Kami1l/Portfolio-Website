@@ -97,7 +97,7 @@ header{
                 }
                 h1{
                     position: relative;
-                    font-size: 30px;
+                    font-size: 26px;
                     color:$eventColor;
                     z-index: 9;
                 }
@@ -178,11 +178,11 @@ header{
         justify-content: right;
         transition: left 0.5s ease-in-out;
         p{
+            margin:auto 20px;
+            line-height: 1.3;
             font-size: 12px;
             font-weight: bold;
-            margin:8px;
             color:$eventColor;
-            letter-spacing: 1px;
         }
         .grab{
             height: 160px;
@@ -416,7 +416,7 @@ footer{
             left: -405px;
             margin-top: 6vh;
             p{
-                margin:8px 8px 8px 50px;
+                margin:auto 50px;
 
             }
             .grab{
@@ -507,7 +507,11 @@ footer{
             }
         }
     }
+
     .section{
+        .strip{
+            letter-spacing: 1px;
+        }
         article{
             justify-content: center;
             align-items: center;
@@ -758,7 +762,86 @@ footer{
         }
     }
 }
+@media only screen and (min-width: 1440px){
+    .MainTheme{
 
+    }
+    header{
+        .cloud_1{
+            top:65%;
+            width: 280px;
+            height: 320px;
+        }
+        .cloud_2{
+            top:50%;
+            width: 350px;
+            height: 450px;
+        }
+        .cloud_3{
+            top:-15%;
+            height:1300px;
+        }
+        .coat{
+            width: 500px;
+            .umbrella{
+                width: 500px;
+            }
+            &::after {
+                content: "";
+                width: 500px;
+                top: 47vh;
+            }
+        }
+    }
+    .section{
+        h2{
+            font-size: 50px;
+        }
+        .container{
+            &:nth-child(2){
+                .selector{
+                    transform: translateX(-70%);
+                }
+            }
+            &:nth-child(3){
+                .selector{
+                    transform: translateX(-80%);
+                }
+            }
+        }
+        .strip{
+            width: 60%;
+            height: 250px;
+            p{
+                font-size: 22px;
+            }
+        }
+        article{
+
+            form{
+                h3{
+                    font-size: 38px;
+                }
+                width: 50%;
+                height: 65vh;
+                input[type="text"]{
+                    &::placeholder{
+                        font-size: 18px;
+                    }
+                }
+                input[type="submit"]{
+                    font-size: 28px;
+                    height: 100px;
+                }
+                textarea{
+                    &::placeholder{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+}
 @keyframes spin {
     100%{
         transform: rotate(360deg);
