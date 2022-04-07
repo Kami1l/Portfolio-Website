@@ -1,4 +1,3 @@
-👋 Hi, I’m Kamil
-👀 I’m interested in JS,HTML,CSS,
+👋 Hi it's my first portfolio website.
 
 For now php file doesn't work :).
